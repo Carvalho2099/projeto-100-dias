@@ -14,6 +14,7 @@ export function Post() {
             </header>
             <div className={styles.content}>
                 <p>é isso ai</p>
+                <p><a href="#">teste.teste.com</a></p>
             </div>
         </article>
     )
