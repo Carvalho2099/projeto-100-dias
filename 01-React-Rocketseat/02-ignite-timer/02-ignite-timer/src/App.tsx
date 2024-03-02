@@ -1,9 +1,15 @@
+import { Button } from "./components/Button";
 
 
 export default function App() {
 
   return (
-    <h1>EAE</h1>
+    <>
+      <Button variant="primary" />
+      <Button variant="secondary" />
+      <Button variant="success" />
+      <Button variant="danger" />
+    </>
   )
 }
 
